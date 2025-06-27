@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url(https://fonts.gstatic.com/s/robotomono/v23/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4AJi8SJQt.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'noto-devanagari';
+  font-weight: 100 900; /* Variable weight range */
+  font-style: normal italic;
+  font-display: fallback;
+  src: url('fonts/noto-devanagari.ttf') format('truetype');
+}
+
+.shloka-num {
+  font-family: 'noto-devanagari';
+  font-weight: 500;
+  font-stretch: 100%;
+  font-size: 1.0rem;
+  padding: 0;
+  margin: 0 0;
+  color: #41463D;
+}
+
+.saara-heading,
+.shloka {
+  font-family: 'noto-devanagari';
+  font-weight: 500;
+  font-stretch: 100%;
+  font-size: 2.0rem;
+  color: #403233;
+}
+
+.vyakhya, .anvaya, .artha, .vyakarna, .vyakarna th, .vyakarna td {
+  font-family: 'noto-devanagari';
+  font-weight: 400;
+  font-stretch: 100%;
+  font-size: 1.25rem;
+}
+
+k {
+  font-weight: 600;
+  font-stretch: 100%;
+  font-size: 1.0rem;
+  padding: 0.75rem 0rem 0.5rem 0rem; 
+  --text-decoration: underline;
+  opacity: 0.35;
+  display: block;
+}
+
+.artha h {
+  font-weight: 500;
+  color: #CC4E00;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}

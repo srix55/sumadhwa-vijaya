@@ -1,0 +1,32 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+
+.book-menu {
+  display: none;
+}
+
+.book-page {
+  margin-left: 0;
+}
+
+.header-links {
+  text-align: right;
+  font-family: 'noto-devanagari';
+  font-weight: 700;
+  font-stretch: 90%;
+  font-size: 0.9rem;
+  margin: 1.0rem 2.0rem 1.0rem 1.0rem;
+}
+
+.header-links a {
+  text-align: center;
+}
+
+p {
+  padding: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin: 0;
+}
+
